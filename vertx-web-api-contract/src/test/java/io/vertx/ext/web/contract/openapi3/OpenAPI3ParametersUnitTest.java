@@ -1,7 +1,7 @@
 package io.vertx.ext.web.api.contract.openapi3;
 
-import io.swagger.oas.models.OpenAPI;
-import io.swagger.parser.v3.OpenAPIV3Parser;
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.parser.OpenAPIV3Parser;
 import io.vertx.core.AsyncResult;
 import io.vertx.core.Handler;
 import io.vertx.core.http.HttpServerOptions;

@@ -2,9 +2,9 @@ package io.vertx.ext.web.api.contract.openapi3;
 
 import com.google.common.net.MediaType;
 import io.netty.handler.codec.http.HttpHeaderNames;
-import io.swagger.oas.models.OpenAPI;
-import io.swagger.oas.models.Operation;
-import io.swagger.parser.v3.OpenAPIV3Parser;
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.Operation;
+import io.swagger.v3.parser.OpenAPIV3Parser;
 import io.vertx.core.MultiMap;
 import io.vertx.core.http.HttpClientRequest;
 import io.vertx.core.http.HttpMethod;

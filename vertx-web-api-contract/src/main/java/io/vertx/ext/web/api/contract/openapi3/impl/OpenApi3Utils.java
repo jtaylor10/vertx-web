@@ -1,8 +1,8 @@
 package io.vertx.ext.web.api.contract.openapi3.impl;
 
-import io.swagger.oas.models.media.ComposedSchema;
-import io.swagger.oas.models.media.Schema;
-import io.swagger.oas.models.parameters.Parameter;
+import io.swagger.v3.oas.models.media.ComposedSchema;
+import io.swagger.v3.oas.models.media.Schema;
+import io.swagger.v3.oas.models.parameters.Parameter;
 import io.vertx.ext.web.api.validation.SpecFeatureNotSupportedException;
 
 import java.util.ArrayList;
