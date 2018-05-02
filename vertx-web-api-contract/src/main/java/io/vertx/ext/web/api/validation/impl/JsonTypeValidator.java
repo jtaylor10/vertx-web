@@ -39,7 +39,7 @@ public class JsonTypeValidator implements ParameterTypeValidator {
 
   public static class JsonTypeValidatorFactory {
     public static JsonTypeValidator createJsonTypeValidator(JsonNode node) {
-      return new JsonTypeValidator(new JsonSchemaFactory().getSchema(node));
+      return new JsonTypeValidator(JsonSchemaFactory.getInstance().getSchema(node));
     }
 
     public static JsonTypeValidator createJsonTypeValidator(String object) {
